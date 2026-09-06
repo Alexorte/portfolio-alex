@@ -12,7 +12,7 @@ export function Hero() {
         <div className="animate-reveal">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/75 px-4 py-2 text-sm font-semibold text-brand-700 shadow-sm backdrop-blur dark:border-brand-400/20 dark:bg-white/10 dark:text-brand-200">
             <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_0_6px_rgba(52,211,153,0.18)]" />
-            Disponible para becas, prácticas y proyectos
+            Interesado en Data Science, Data Engineering y proyectos de I+D
           </div>
 
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-brand-600 dark:text-brand-300">{profile.role}</p>

@@ -13,7 +13,7 @@ export function Contact() {
               <p className="mb-3 text-sm font-semibold uppercase tracking-[0.35em] text-brand-300 dark:text-brand-700">Contacto</p>
               <h2 className="text-3xl font-black tracking-tight sm:text-5xl">¿Hablamos?</h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300 dark:text-slate-600">
-                Estoy abierto a oportunidades de prácticas, becas y proyectos relacionados con datos, machine learning y software.
+                Estoy abierto a oportunidades profesionales en Data Science, Data Engineering y proyectos de I+D relacionados con datos e inteligencia artificial.
               </p>
             </div>
 

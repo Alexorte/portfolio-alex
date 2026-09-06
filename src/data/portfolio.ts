@@ -1,14 +1,14 @@
 export const profile = {
   name: 'Alex Ortega Redondo',
-  role: 'Ingeniería Informática',
-  headline: 'Data Science, Machine Learning and software development',
+  role: 'Ingeniero Informático',
+  headline: 'Data Science, Machine Learning and I+D oriented',
   email: 'aortega.redondo@outlook.es',
   location: 'Albacete, España',
   linkedin: 'https://www.linkedin.com/in/alexortegaredondo',
   github: 'https://github.com/Alexorte',
   cv: '/CV - Alex Ortega.pdf',
   summary:
-    'Estudiante de Ingeniería Informática en la Universidad de Castilla-La Mancha, con interés en análisis de datos, ciencia de datos, ingeniería de datos y desarrollo de software. Me interesa aplicar técnicas de análisis de datos y machine learning en soluciones que puedan integrarse en aplicaciones reales.'
+    'Ingeniero Informático y actualmente cursando un Máster en Inteligencia Artificial. Tengo especial interés en ciencia de datos, ingeniería de datos y proyectos de I+D, así como en la aplicación de técnicas de machine learning y análisis de datos a problemas reales. Me motiva seguir desarrollándome en entornos técnicos y de investigación donde pueda combinar programación, datos e inteligencia artificial.'
 }
 
 export const navLinks = [
@@ -40,20 +40,51 @@ export const navLinks = [
 
 export const skills = [
   {
-    title: 'Datos / Machine Learning',
-    items: ['Python', 'NumPy', 'pandas', 'scikit-learn', 'Matplotlib', 'Seaborn', 'TensorFlow', 'Keras']
+    title: 'Data Science / Machine Learning',
+    items: [
+      'Python',
+      'NumPy',
+      'pandas',
+      'scikit-learn',
+      'TensorFlow',
+      'Keras',
+      'Matplotlib',
+      'Seaborn'
+    ]
   },
   {
-    title: 'Desarrollo',
-    items: ['React', 'TypeScript', 'Django', 'Django REST Framework', 'Node.js', 'APIs REST']
+    title: 'Data Engineering / Analytics',
+    items: [
+      'SQL',
+      'ETL',
+      'Power BI',
+      'DBeaver',
+      'Modelado de datos'
+    ]
   },
   {
     title: 'Bases de datos',
-    items: ['MySQL', 'PostgreSQL', 'DBeaver', 'modelado relacional']
+    items: [
+      'PostgreSQL',
+      'MySQL',
+      'Redis'
+    ]
   },
   {
-    title: 'Herramientas',
-    items: ['Git', 'Docker', 'Docker Compose', 'Postman', 'Redis', 'Power BI']
+    title: 'Desarrollo y herramientas',
+    items: [
+      'Django',
+      'Django REST Framework',
+      'React',
+      'TypeScript',
+      'Node.js',
+      'APIs REST',
+      'Git',
+      'Docker',
+      'Docker Compose',
+      'Postman',
+      'JIRA'
+    ]
   }
 ]
 
@@ -117,6 +148,16 @@ export const projects: Project[] = [
 ]
 
 export const experience = [
+
+  {
+    title: 'Solution Implementation & Testing Associate',
+    company: 'Dedalus HealthCare',
+    date: 'Julio 2026 - Actualidad',
+    description:
+      'Participación en proyectos de implantación de soluciones sanitarias, con especial foco en procesos de migración y validación de datos. Trabajo con bases de datos y procesos ETL para la extracción, transformación, carga y comprobación de información entre distintos sistemas. Uso habitual de SQL, DBeaver, herramientas ETL y JIRA para el análisis de datos, ejecución de consultas, seguimiento de incidencias y validación de los procesos de migración.',
+    tags: ['SQL', 'ETL', 'Data Migration', 'DBeaver', 'JIRA', 'Data Validation']
+  },
+
   {
     title: 'Personal de apoyo a proyectos',
     company: 'Universidad de Castilla-La Mancha · Certificación DigitAll en Competencias Digitales',
@@ -136,8 +177,13 @@ export const experience = [
 ]
 
 export const education = [
+    {
+    date: 'Septiembre 2026 - Actualidad',
+    title: 'Máster en Inteligencia Artificial',
+    place: 'Universidad de Castilla-La Mancha · Albacete'
+  },
   {
-    date: '2022 - Actualidad',
+    date: '2022 - 2026',
     title: 'Grado en Ingeniería Informática',
     place: 'Universidad de Castilla-La Mancha · Albacete'
   },
